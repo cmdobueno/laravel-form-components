@@ -14,6 +14,10 @@
         placeholder-gray-400
         sm:text-sm;
 
+    [type=color]{
+        @apply h-9 p-1 bg-transparent;   
+    }
+    
     &:not(.password-toggleable) {
         @apply focus:border-primary-300
             focus:ring-opacity-50
