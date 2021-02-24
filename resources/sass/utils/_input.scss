@@ -14,7 +14,7 @@
         placeholder-gray-400
         sm:text-sm;
 
-    [type=color]{
+    &[type=color]{
         @apply h-9 p-1 bg-transparent;   
     }
     
